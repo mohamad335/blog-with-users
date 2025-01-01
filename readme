@@ -1,0 +1,5 @@
+our project is to add authentication by flask-login to blog project 
+first we create forms of login and registers and create second database for the data of it
+then we hash the passwordand check if the user has been registered before and if check password if correct or not 
+then we allow only first id to create a blog post and the other can't by using decorated function
+and we still have to allow users to write comments 
