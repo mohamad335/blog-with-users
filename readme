@@ -3,3 +3,4 @@ first we create forms of login and registers and create second database for the 
 then we hash the passwordand check if the user has been registered before and if check password if correct or not 
 then we allow only first id to create a blog post and the other can't by using decorated function
 and we still have to allow users to write comments 
+we need to allow user to create a many of plog so we create one to many realation between the User database and PlogPost the parent is the User so create the relation bye using sqlalchemy friegnkey and relationship
